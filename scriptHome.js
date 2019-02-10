@@ -38,10 +38,6 @@ function addContent(contentToAdd, callback) {
 
 setTimeout(function() {
     deleteContent(function() {
-        addContent("we are", function() {
-            deleteContent(function() {
-                addContent("AEROYACKETS");
-            });
-        });
+        addContent("We are AEROYACKETS");
     });
 }, initialPause);
